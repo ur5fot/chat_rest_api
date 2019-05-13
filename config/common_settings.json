@@ -1,0 +1,18 @@
+{
+    "db": {
+        "url": "mongodb://localhost/chat",
+        "options": {
+            "useNewUrlParser": true
+        }
+    },
+    "api": {
+        "base": "api",
+        "messagesPoints": {
+            "messages": "messages",
+            "list": "list",
+            "single": "single",
+            "create": "create"
+        }
+    },
+    "pageSize": 10
+}
