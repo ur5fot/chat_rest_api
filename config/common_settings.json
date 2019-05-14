@@ -1,6 +1,6 @@
 {
     "db": {
-        "url": "mongodb://localhost/chat",
+        "url": "mongodb://heroku_8z14hw6j:19452070mA@ds155916.mlab.com:55916/heroku_8z14hw6j",
         "options": {
             "useNewUrlParser": true
         }
