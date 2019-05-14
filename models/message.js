@@ -1,7 +1,7 @@
 const commonSetting = require('../config/common_settings');
 const mongoose      = require('mongoose');
 
-mongoose.connect(commonSetting.db.url, commonSetting.db.options);
+mongoose.connect(process.env.MONGODB_URI, commonSetting.db.options);
 
 const Schema = mongoose.Schema;
 
